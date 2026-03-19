@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# ML files
+*.pth
+*.pkl
+*.pt
+
+# Data
+data/
+
+# OS
+.DS_Store
