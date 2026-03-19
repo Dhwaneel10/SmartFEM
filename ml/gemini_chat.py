@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import os
 
-genai.configure(api.key=os.getenv("AIzaSyAZxNwkAo_dNldwf0aRzecHmabOOg4J8TI"))
+genai.configure(api.key=st.secrets["AIzaSyAZxNwkAo_dNldwf0aRzecHmabOOg4J8TI"])
 
 
 def ask_ai(prompt):
